@@ -20,7 +20,19 @@ void testBucketingByNumberOfCycles() {
   assert(counts.lowCount == 2);
   assert(counts.mediumCount == 3);
   assert(counts.highCount == 1);
-  printf("Done counting :)\n");
+  if(counts>2)
+  {
+    printf("medium");
+  }
+  else if(count==1)
+  {
+    printf("high");
+    
+  }
+  else
+  {
+  printf("low");
+  }printf("Done counting :)\n");
 }
 
 int main() {
